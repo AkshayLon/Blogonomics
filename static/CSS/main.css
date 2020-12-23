@@ -1,0 +1,186 @@
+body {
+    margin:0px;
+}
+
+.header {
+	position: fixed;
+	width: 100%;
+	height: 60px;
+	background-color: black;
+	padding: 38.4px 7% 38.4px 7%;
+	z-index: 1;
+}
+
+#container {
+	width: 86%;
+	height: 52.98px;
+}
+
+#title {
+	position: absolute;
+	padding-top: 11.49px;
+	padding-bottom: 11.49px;
+	font-family: "proxima-nova","Helvetica Neue",Helvetica,Arial,sans-serif;
+	width: 20%;
+	height: 30px;
+	top:38.4px;
+	left: 33%;
+	color:white;
+	text-align: center;
+	font-size: 30px;
+}
+
+#tab_container {
+	position: relative;
+	left: 0px;
+	width: 42%;
+}
+
+#contentWrapper {
+    width:100%;
+    height:650px;
+}
+
+h4 {
+    font-size:20px;
+    font-family:"orpheus-pro";
+}
+
+#featuredPosts {
+    float:left;
+    width:86%;
+    padding-left:7%;
+    padding-right:7%;
+    padding-bottom:60px;
+    background-color:black;
+    padding-top: 140px;
+    color:white;
+}
+
+.post {
+    float:left;
+    padding-right:20px;
+    background-color:black;
+}
+
+/* For mobile phones: */
+@media only screen and (max-width: 599px) {
+.col{  width: 100%;}
+.header{height:120px;}
+#featuredPosts{padding-top:240px;}
+.post{padding-bottom:20px;}
+}
+@media only screen and (min-width: 600px) {
+  /* For tablets: */
+ .col { width:47.54%;}
+}
+@media only screen and (min-width: 768px) {
+  /* For desktop: */
+  .col { width:23.77%;}
+
+}
+
+.image {
+    width:100%;
+    height: 280px;
+}
+
+.subImg {
+    max-width:100%;
+    height:280px;
+}
+
+.title {
+    font-weight:bold;
+    font-size:18px;
+}
+
+.tab {
+	height: 20px;
+	float: left;
+	font-size: 20px;
+	padding-top: 16.49px;
+	padding-bottom: 16.49px;
+	color: white;
+}
+
+/* For mobile phones: */
+.coltab{
+  width: 100%;
+
+}
+
+@media only screen and (min-width: 768px) {
+  /* For desktop: */
+  .coltab { width:14%;}
+
+}
+
+.tab:hover {
+	text-decoration: underline;
+}
+
+#mainPost {
+    width:100%
+    height:700px;
+    padding: 38.4px 7% 38.4px 7%;
+    color:purple;
+    text-shadow: 2px 0px black;
+    background-image: url("/static/Images/wallpaper.jpg");
+    background-size: cover;
+}
+
+.footer {
+	width: 86%;
+	padding: 20px 7% 20px 7%;
+	background-color: black;
+	color: white;
+	float: left;
+}
+
+#blogContent {
+    width:62%;
+    background-color:black;
+    float:left;
+    padding-top:140px;
+    padding-bottom:50px;
+    position:relative;
+    left:19%
+}
+
+#tempNoArchive {
+    width:100%;
+    height:442.5px;
+    background-color:black;
+    padding-top:140px;
+    padding-left:7%;
+    padding-right:7%;
+    color:white;
+    font-size:48px;
+}
+
+.heads {
+    color:white;
+}
+
+#introPara {
+    font-size:36px;
+}
+
+.para {
+    color:white;
+    font-size:24px;
+}
+
+.bullets {
+    color:white;
+    font-size:24px;
+}
+
+.MainIMG {
+    width:100%;
+}
+
+#blogTitle {
+    font-size:72px;
+}
