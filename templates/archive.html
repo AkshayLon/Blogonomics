@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<head>
+	<title>CRGS Economics Blog | Archive</title>
+	<link rel="stylesheet" href="{{ url_for('static', filename='./CSS/main.css') }}" type="text/css">
+</head>
+<body style="margin:0px;">
+	<div class="header">
+		<div id="container">
+			<div id="tab_container">
+				<a href="{{url_for('home')}}"><div class="tab coltab" id="Home">Home</div></a>
+				<a href="#footer"><div class="tab coltab" id="About">About</div></a>
+				<a href="{{url_for('archive')}}"><div class="tab coltab" id="Archive">Archive</div></a>
+			</div>
+			<div id="title">Blogonomics</div>
+		</div>
+	</div>
+	<div id="tempNoArchive">
+		<p></p>
+		No archived posts at the moment but stay tuned!
+	</div>
+	<div class="footer" id="footer">
+		<h4>About Us:</h4>
+		<p style="font-size:24px;">Written by highly-skilled and passionate A-level economists, Blogonomics is an easy-to-read economics blog site which guarantees high quality content on a regular basis.</p>
+		<p>For any queries, contact the content writers:
+		<ul>
+			<li>Akshay Lonkar - akshaylon@crgs.co.uk</li>
+			<li>Aron Jhita - aronjhi@crgs.co.uk</li>
+			<li>Arzim Asmil - arzimasm@crgs.co.uk</li>
+			<li>Dhakshinesh Desikan - dhakshineshsiv@crgs.co.uk</li>
+			<li>Hassam Zahid - hassamzah@crgs.co.uk</li>
+			<li>Pranay Gogia - pranaygog@crgs.co.uk</li>
+			<li>Rees Popovici - reespop@crgs.co.uk</li>
+			<li>Thomas Richardson - thomasric@crgs.co.uk</li>
+		</ul>
+		</p>
+	</div>
+</body>

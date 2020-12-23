@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<head>
+	<title>Markets, Monopolies and Antitrust Policies</title>
+	<link rel="stylesheet" href="{{ url_for('static', filename='./CSS/main.css') }}" type="text/css">
+</head>
+<body style="margin:0px; background-color:black;">
+	<div class="header">
+		<div id="container">
+			<div id="tab_container">
+				<a href="{{url_for('home')}}"><div class="tab coltab" id="Home">Home</div></a>
+				<a href="#footer"><div class="tab coltab" id="About">About</div></a>
+				<a href="{{url_for('archive')}}"><div class="tab coltab" id="Archive">Archive</div></a>
+			</div>
+			<div id="title">Blogonomics</div>
+		</div>
+	</div>
+	<div id="blogContent">
+		<h1 class="heads" id="blogTitle">Markets, Monopolies and Antitrust Policies</h1>
+		<h3 class="heads" id="introPara">Economists are always talking about monopolies being harmful to society and how they must be controlled. In this blog, we will delve deeper into why this is the case and policies used to control them. Before we get to that though, it is important to understand the importance of markets, their function as well as their strengths and weaknesses.</h3>
+		<p class="para">In layman’s terms, markets are ways to meet people’s needs and wants, for example, if you want a chocolate, you go to your local market, and exchange your money for a bar of chocolate. In this way, you have maximized your utility, by buying what you thought was most worthy, and the seller has benefited by earning a profit. It’s not quite as simple as I have just described it, however. Markets have many pros, but they can also fail, one type of market failure is the topic of today’s blog.</p>
+		<p class="para">So, what are the strengths of markets? Well, as I just described, markets are ways in which buyers meet sellers to exchange goods or services for money (or something else - bartering). Markets allow consumers to buy what’s best for themselves: “utility maximization”, in the earlier example, you bought that chocolate bar in exchange for your money because it gave you more utility than anything else you could have bought with that money at that moment. In the same way, markets allow producers to produce/sell what they are best at doing: “profit maximization”. This encourages producers to reduce costs and become as efficient as possible, as well as this, producers are encouraged to innovate, and innovation is necessary for economic advancement and to help raise living standards over the long run. In fact, Joseph Schumpeter, an Austrian Economist in the 20th century believed that innovation is “an essential fact of Capitalism”.</p>
+		<p class="para">So now you know the strengths of markets, let us analyze one of their main weaknesses: Monopolies abusing their market power. (There are several more market failures, but we will focus on this for this week’s blog). A monopoly is a market controlled by one seller, with absolute barriers to entry (factors making it extremely difficult for new firms to enter the market/industry). There are very few absolute monopolies in the real world, however, it is important to note that you do not need to have an absolute monopoly to exert monopoly power. When a single corporation has a huge market share in an industry, they have similar power. The reason why MOST (NOT ALL) monopolies are considered harmful to society as a whole is that the monopolist (the company with large market share) can push up prices to increase profits knowing that they won’t be undercut by competitors (because there aren’t any significant ones!). This will mean that consumers will demand a lower quantity and firms will produce less. This hurts society as a whole, as consumers would like to buy more and cheaper goods; however, the monopolist decides the price and production based solely on their profits. This is why many economists believe that competition is necessary, it keeps prices low.</p>
+		<p class="para">This leads us nicely to antitrust/competition policies: policies to deal with the creation/enhancement and exercise of market power. To understand this, we will look at real-life examples of 3 main reasons why such policies exist:<ul class="bullets"><li>Horizontal Integration</li><li>Vertical Integration</li><li>Company has too much market power!</li></ul></p>
+		<p class="para">Firstly, horizontal integration is the act of buying companies that produce similar products. In the UK grocery sector, attempts to horizontally integrate have taken place several times but been blocked by regulation. A famous and recent example of this is the attempted Sainsbury’s - Asda merger (2019). The reason why the two wanted to merge was that they expected this would “reduce their costs, allowing them to lower prices for consumers across the UK” (BBC). This horizontal merger was blocked because the CMA believed it would reduce competition on a national scale resulting in potentially “higher prices” and “longer checkout queues”. I believe that this was the right decision, as the UK grocery sector is already dominated by 3 big names: Tesco (27% of Market share), Asda and Sainsbury’s (both having around 16% market share). A merger of any of these top 3, in the short run, would most likely reduce costs and prices for consumers allowing the merged company to have an even greater market share, in the long run, however, I believe that the merged company would abuse their power and push prices upwards. This would be negative for shoppers nationwide.</p>
+		<img src="{{ url_for('static', filename='./Images/MarketsMonopoliesAntitrust.jpg') }}" class="MainIMG">
+		<p class="para">Now, let’s look at vertical integration. Vertical integration is when a company owns or controls its supply chain. Continuing with the UK grocery market, the CMA allowed Tesco to buy Booker (early 2018). Booker is the UK’s largest food wholesaler, and the reason why Tesco wanted to buy Booker was to improve access to the chain restaurant market since Booker was a major supplier for many of these chain restaurants. The reason this merge was allowed was due to the fact that Booker’s share of the UK grocery wholesale market was < 20% which was “not sufficient to justify long term concerns” and that the wholesale market would “remain competitive”.</p>
+		<p class="para">Thirdly, and most importantly, corporations that expand to great heights can end up using their power in ways that are harmful to society as a whole. A great example of this being: at the start of the twentieth century, a giant company, Standard Oil, controlled most of America’s oil market and, they exerted their power by increasing prices significantly. This forced the American government to break up Standard Oil into 34 separate companies to maintain competition and thereby lower prices for consumers across the US.</p>
+		<p class="para">To conclude, I believe that anti-trust policies are necessary regulations by the government to ensure consumer interest is guarded against the greed of profit from companies with a large market share. At the same time, it is important to encourage innovation and motivate entrepreneurs to create large businesses and potentially even allow monopolies to be created BUT ONLY SHORT-TERM. This in fact, already exists and is called a ‘patent’ and this gives entrepreneurs exclusive rights to profit from a specific product, and thereby allows them to create a monopoly. However, these patents usually expire in 20 years (for most industries), at which point, barriers to entry lower, and competition moves in resulting in prices falling.</p>
+		<p class="para">By Pranay Gogia - Uploaded on 21/12/2020</p>
+	</div>
+	<div class="footer" id="footer">
+		<h4>About Us:</h4>
+		<p style="font-size:24px;">Written by highly-skilled and passionate A-level economists, Blogonomics is an easy-to-read economics blog site which guarantees high quality content on a regular basis.</p>
+		<p>For any queries, contact the content writers:
+		<ul>
+			<li>Akshay Lonkar - akshaylon@crgs.co.uk</li>
+			<li>Aron Jhita - aronjhi@crgs.co.uk</li>
+			<li>Arzim Asmil - arzimasm@crgs.co.uk</li>
+			<li>Dhakshinesh Desikan - dhakshineshsiv@crgs.co.uk</li>
+			<li>Hassam Zahid - hassamzah@crgs.co.uk</li>
+			<li>Pranay Gogia - pranaygog@crgs.co.uk</li>
+			<li>Rees Popovici - reespop@crgs.co.uk</li>
+			<li>Thomas Richardson - thomasric@crgs.co.uk</li>
+		</ul>
+		</p>
+	</div>
+</body>
